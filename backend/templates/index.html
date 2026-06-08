@@ -2,22 +2,69 @@
 <html>
 <head>
     <title>Smart Lost & Found System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+
+        nav {
+            background-color: #007bff;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 20px;
+            font-weight: bold;
+        }
+
+        .container {
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        .btn {
+            display: inline-block;
+            margin: 15px;
+            padding: 12px 25px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
-<body style="font-family: Arial; text-align:center; margin-top:100px;">
 
-    <h1>🔍 Smart Lost & Found System</h1>
+<body>
 
-    <p>
-        Helping students recover lost belongings quickly and securely.
-    </p>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/report-lost">Report Lost</a>
+        <a href="/report-found">Report Found</a>
+        <a href="/search">Search</a>
+    </nav>
 
-    <br>
+    <div class="container">
+        <h1>Smart Lost & Found System</h1>
+        <p>Find Lost Items Quickly and Securely</p>
 
-    <button>Report Lost Item</button>
-
-    <button>Report Found Item</button>
-
-    <button>Search Items</button>
+        <a class="btn" href="/report-lost">Report Lost Item</a>
+        <a class="btn" href="/report-found">Report Found Item</a>
+        <a class="btn" href="/search">Search Items</a>
+    </div>
 
 </body>
 </html>
+
